@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "d3wSevqFZuqVPWsSkLHogvPcLrZ3RlZuG1ZmW2yPK1nk6Sssd4tlwIKSmymChJqL51lsmjDsSdoI8HFgamucSQ==",
+  "dgSpecHash": "uSu3G1voytGipqBrPP7iR3fQxH/Q57NrL3uOrH7I+kv8MmIRT9zMxwqrnOPewKUscMrueqlRAH52AJZhv1wwxA==",
   "success": true,
-  "projectFilePath": "c:\\Users\\arosenius.carlander\\Documents\\Vinterprojekt_2_Carl-Anders_TE20A\\Vinterprojekt2\\Vinterprojekt2\\Vinterprojekt2.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\arosenius.carlander\\Documents\\Vinterprojekt_2_Carl-Anders_TE20A\\Vinterprojekt2\\Vinterprojekt2\\Vinterprojekt2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\arosenius.carlander\\.nuget\\packages\\raylib-cs\\4.2.0.1\\raylib-cs.4.2.0.1.nupkg.sha512",
+    "C:\\Users\\arosenius.carlander\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512"
+  ],
   "logs": []
 }

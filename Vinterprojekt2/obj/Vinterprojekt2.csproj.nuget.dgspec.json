@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\arosenius.carlander\\Documents\\Vinterprojekt_2_Carl-Anders_TE20A\\Vinterprojekt2\\Vinterprojekt2\\Vinterprojekt2.csproj": {}
+    "C:\\Users\\arosenius.carlander\\Documents\\Vinterprojekt_2_Carl-Anders_TE20A\\Vinterprojekt2\\Vinterprojekt2\\Vinterprojekt2.csproj": {}
   },
   "projects": {
-    "c:\\Users\\arosenius.carlander\\Documents\\Vinterprojekt_2_Carl-Anders_TE20A\\Vinterprojekt2\\Vinterprojekt2\\Vinterprojekt2.csproj": {
+    "C:\\Users\\arosenius.carlander\\Documents\\Vinterprojekt_2_Carl-Anders_TE20A\\Vinterprojekt2\\Vinterprojekt2\\Vinterprojekt2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\arosenius.carlander\\Documents\\Vinterprojekt_2_Carl-Anders_TE20A\\Vinterprojekt2\\Vinterprojekt2\\Vinterprojekt2.csproj",
+        "projectUniqueName": "C:\\Users\\arosenius.carlander\\Documents\\Vinterprojekt_2_Carl-Anders_TE20A\\Vinterprojekt2\\Vinterprojekt2\\Vinterprojekt2.csproj",
         "projectName": "Vinterprojekt2",
-        "projectPath": "c:\\Users\\arosenius.carlander\\Documents\\Vinterprojekt_2_Carl-Anders_TE20A\\Vinterprojekt2\\Vinterprojekt2\\Vinterprojekt2.csproj",
+        "projectPath": "C:\\Users\\arosenius.carlander\\Documents\\Vinterprojekt_2_Carl-Anders_TE20A\\Vinterprojekt2\\Vinterprojekt2\\Vinterprojekt2.csproj",
         "packagesPath": "C:\\Users\\arosenius.carlander\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\arosenius.carlander\\Documents\\Vinterprojekt_2_Carl-Anders_TE20A\\Vinterprojekt2\\Vinterprojekt2\\obj\\",
+        "outputPath": "C:\\Users\\arosenius.carlander\\Documents\\Vinterprojekt_2_Carl-Anders_TE20A\\Vinterprojekt2\\Vinterprojekt2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\arosenius.carlander\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -37,6 +37,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Raylib-cs": {
+              "target": "Package",
+              "version": "[4.2.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
