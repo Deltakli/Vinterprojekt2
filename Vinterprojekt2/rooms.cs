@@ -16,10 +16,12 @@ public class Rooms
     {
         for (int i = 0; i < walls.Count; i++)
         {
-            if (Raylib.CheckCollisionRecs(playerRect, walls[i]))
+            if (Raylib.CheckCollisionRecs(playerRect, walls[i]) == true)
             {
-                playerRect.x -= xMovement;
+                //playerRect.x -= xMovement;
                 playerRect.y -= yMovement;
+
+                playerRect.y = -10;
             }
         }
 

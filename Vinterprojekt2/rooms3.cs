@@ -16,7 +16,7 @@ public class Rooms3
             {
                 if (Raylib.CheckCollisionRecs(playerRect, walls[i]))
                 {
-                    playerRect.x -= xMovement;
+                    //playerRect.x -= xMovement;
                     playerRect.y -= yMovement;
                 }
             }

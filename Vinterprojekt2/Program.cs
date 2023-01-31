@@ -17,15 +17,18 @@ static void Everything()
     Rectangle Roomport2 = new Rectangle(780, 200, 20, 200);
     Rectangle Roomport3 = new Rectangle(780, 200, 20, 200);
     Rectangle Roomport4 = new Rectangle(0, 200, 20, 200);
+    //Rectangle Roomport5 = new Rectangle(0.200,50,100);
     Rectangle Door = new Rectangle(50, 550, 700, 600);
     Rectangle Key1 = new Rectangle(300, 300, 30, 30);
     Rectangle Key2 = new Rectangle(400, 200, 30, 30);
     bool key2PickedUp = false;
     bool key1PickedUp = false;
+    //bool Movement = false;
     int Keyall = 0;
     Font f1 = Raylib.LoadFont(@"Metrophobic.ttf");
 
     int timer = 0;
+    int timer2 = 0;
 
     //Texture2D playerImage = Raylib.LoadTexture("piskel.png");
     //Texture2D DoorImage = Raylib.LoadTexture("Door.png");
@@ -33,7 +36,7 @@ static void Everything()
     //Alla vägar som finns
     Rectangle[] wallRect = new Rectangle[10];
     wallRect[0] = new Rectangle(0, 0, 50, 200);
-    wallRect[1] = new Rectangle(0, 0, 800, 60);
+    wallRect[1] = new Rectangle(0, 400, 800, 60);
     wallRect[2] = new Rectangle(750, 0, 50, 200);
     wallRect[3] = new Rectangle(750, 400, 50, 200);
     wallRect[4] = new Rectangle(0, 400, 50, 200);
@@ -75,7 +78,7 @@ static void Everything()
         float yMovement = 0;
 
         (timer, xMovement, playerRect) = Timer.TimeOne(timer, xMovement, playerRect);
-        (timer, yMovement, playerRect) = TimerTwo.TimeTwo(timer, yMovement, playerRect);
+        (timer, yMovement, playerRect) = TimerTwo.TimeTwo(timer, yMovement, playerRect, timer2);
         timer = Dock.ClockT(Dock.t, timer);
 
         //Alla rum som finns och vad de har i sig i listor
